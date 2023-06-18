@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Basic HTML Form</h1>
+    <form action="" method="post">
+        <fieldset>
+            <legend>Name</legend>
+            <label for="fname">First Name</label><br>
+            <input type="text"  id="fname" name="fname"><br><br>
+            <label for="lname">Last Name</label><br>
+            <input type="text" id="lname" name="lname"><br><br>
+
+        </fieldset>
+    </form>
+    <form action="" method="get">
+        <fieldset>
+            <legend>Other Questions</legend>
+            <label for="drink">Choose a drink:</label><br>
+            <input type="radio" id="drink"name="drink" >
+            <label for="drink">Coffee</label> <br>
+            <input type="radio" name="drink" id="drink">
+            <label for="drink">tea</label><br>
+            <input type="radio" name="drink" id="drink">
+            <label for="drink">hot chocolate</label><br><br>
+            <label for="ice">What ice cream do you like?</label><br>
+            <input type="checkbox" id="ice" name="ice">
+            <label for="">Chocolate</label><br>
+            <input type="checkbox" id="ice" name="ice">
+            <label for="">Chocolate Pudding</label><br>
+            <input type="checkbox" id="ice" name="ice">
+            <label for="">Coclate peanut butter</label><br>
+            <input type="checkbox" id="ice" name="ice">
+            <label for="">Vanilla</label><br>
+            <input type="checkbox" id="ice" name="ice">
+            <label for="">Strawberry</label><br><br>
+
+            <label for="">Select a school:</label><br>
+            <input list="school">
+                <datalist id="school">
+                  <option value="Harverd">
+                  <option value="cambridge">
+                  <option value="JUST">
+                  <option value="JU">
+                  <option value="YU">
+                </datalist> <br><br>
+
+           <label for="">Please provide comments:</label><br> 
+           <textarea value="search" rows="6" cols="35"></textarea>    
+
+
+
+
+        </fieldset> <br> <br>
+
+        <button>Submit</button>
+
+    </form>
+</body>
+</html>
