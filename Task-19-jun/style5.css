@@ -1,0 +1,45 @@
+body {
+    background-color: #fff7f0
+    ;
+}
+
+.one {
+    width: 1000px;
+    background-color: white ;
+    border-style: solid;
+    
+    border-color: gray;
+    text-indent: 5px;
+    padding-left: 5px;
+    margin-bottom: 10px;
+    
+}
+
+.two {
+    width: 1000px;
+    background-color: white ;
+    border-style: dashed;
+    
+    border-color: gray;
+    text-indent: 5px;
+    padding-left: 5px;
+    margin-bottom: 10px;
+
+}
+.two p {
+    border-color: red;
+    border-style: dashed;
+}
+
+.three {
+    width: 1000px;
+    color: rgb(198, 37, 179);
+    background-color:white ;
+    border-style: solid;
+    
+    border-color: gray;
+    text-indent: 5px;
+    padding-left: 5px;
+    margin-bottom: 10px;
+
+}
