@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .static {
+            width: 615px;
+            border: 2px dotted black;
+           
+            
+        }
+        .static div {
+            width: 150px;
+            height: 150px;
+            display: inline-block;
+            font-size: large;
+            font-weight: bold;
+            
+
+        }
+
+        .static .two {
+            position: static;
+        }
+
+
+
+        .relative {
+            width: 615px;
+            border: 2px dotted black;
+        }
+
+        .relative div {
+            width: 150px;
+            height: 150px;
+            display: inline-block;
+            font-size: large;
+            font-weight: bold;
+
+        }
+
+        .relative .two {
+            position: relative;
+            top: 20px;
+            left: 50px;
+        }
+
+        .absolute {
+            width: 615px;
+            border: 2px dotted black;
+            position: relative;
+        }
+
+        .absolute div {
+            width: 150px;
+            height: 150px;
+            display: inline-block;
+            font-size: large;
+            font-weight: bold;
+        }
+        .absolute .two {
+            position: absolute;
+            left: 10px;
+            top: 10px;
+        }
+
+
+
+
+    </style>
+</head>
+<body>
+    <h3>position: static</h3>
+    <div class="static">
+        
+        <div style="background-color: red;">One</div>
+        <div class="two" style="background-color: green;">Two</div>
+        <div style="background-color: red;">Three</div>
+        <div style="background-color: red;">Four</div>
+
+    </div>
+    <br> <br>
+
+    <div class="relative">
+
+        <div style="background-color: red;">One</div>
+        <div class="two" style="background-color: green;">Two</div>
+        <div style="background-color: red;">Three</div>
+        <div style="background-color: red;">Four</div>
+
+    </div>
+    <br> <br>
+
+    <div class="absolute">
+
+        <div style="background-color: red;">One</div>
+        <div class="two" style="background-color: green;">Two</div>
+        <div style="background-color: red;">Three</div>
+        <div style="background-color: red;">Four</div>
+
+    </div>
+
+</body>
+</html>
