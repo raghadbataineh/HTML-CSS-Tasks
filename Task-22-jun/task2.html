@@ -25,7 +25,7 @@
         .orange {
             grid-column: 1/3;
             grid-row: 2/7;
-            height: 100%;
+            /* height: 100%; */
            
         }
         .green {
@@ -49,7 +49,9 @@
        margin: auto;
         display: grid;
         grid-template-columns: auto auto auto;
-        grid-template-rows: repeat(10 auto);
+        grid-template-rows: repeat(8 ,auto);
+        gap: 5px;
+
     }
 
     .blue {
@@ -61,21 +63,27 @@
 
         .orange {
             grid-column: 1/7;
+            text-align: center;
             grid-row: 3/4;
-            height: 40px;       
-}
+             height: 50px;
+        }
        .orange .white {
           display: inline-block;
-          width: 20%;
-          margin-left: 20px;
-          margin-top: 10px;
+          width: 22%;
+          height: 30px;
+          border: 2px orange solid;
+          margin-top: 8px;
+         
+
+          
         }
 
        
 
         .gray {
             grid-column: 1/7;
-            grid-row: ;
+           min-height: 25px;
+     
         } 
 
        .green {
@@ -135,6 +143,12 @@
 </head>
 <body>
     <div class="container">
+        <div class="item8 orange" style="background-color: orange;">
+            <div class="white" style="background-color: white;"></div>
+            <div class="white" style="background-color: white;"></div>
+            <div class="white" style="background-color: white;"></div>
+            <div class="white" style="background-color: white;"></div>
+        </div>
         <div class="item1 blue" style="background-color: aqua;"></div>
         <div class="item2 gray" style="background-color: grey;"></div>
         <div class="item3 gray" style="background-color: grey;"></div>  
@@ -142,12 +156,7 @@
         <div class="item5 gray" style="background-color: grey;"></div>
         <div class="item6 gray" style="background-color: grey;"></div>
         <div class="item7 green" style="background-color: rgb(0, 247, 0);"></div>
-        <div class="item8 orange" style="background-color: orange;">
-            <div class="white" style="background-color: white;"></div>
-            <div class="white" style="background-color: white;"></div>
-            <div class="white" style="background-color: white;"></div>
-            <div class="white" style="background-color: white;"></div>
-        </div>
+      
        
     </div>
     
